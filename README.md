@@ -3,7 +3,7 @@
 A small utility to convert text to `:regional_indicator_<char>:` emoji shortcodoes for Discord. Any non-alphabet characters will be just copied.
 
 Note:
-- It is case-insensitive; `monke-text.exe "FUCK YOU"` and `monke-text.exe "fuck you"` are the same to the program.
+- It is case-insensitive; `monke-text.exe "UGA BUGA"` and `monke-text.exe "uga buga"` are the same to the program.
 - The program adds a space after each shortcode, because otherwise they join and don't display like wanted.
 - The spaces become 5 characters long, meaning the overall space is 6 char-s wide (due to the space at the end of the last shortcode).
 
