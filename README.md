@@ -30,4 +30,4 @@ monke-text.exe "HAMBURGER" -c
 
 ## Compatibility
 
-Confirmed to work only on my **64-bit Windows**, *yet*.
+Currently works only on Windows. (The library for accessing clipboard is one specific to Windows.)
