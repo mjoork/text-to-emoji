@@ -1,4 +1,4 @@
-# MonkeText 2.0
+# MonkeText 2
 
 A small utility to convert text to `:regional_indicator_<char>:` emoji shortcodoes for Discord. Any non-alphabet characters will be just copied.
 
