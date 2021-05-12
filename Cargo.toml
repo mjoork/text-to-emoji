@@ -1,0 +1,9 @@
+[package]
+name = "monke-text"
+version = "2.0.0"
+authors = ["Mark Pokhil <vfhr.afr@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clipboard-win = "4.1"
+argh = "0.1.4"
