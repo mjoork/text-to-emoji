@@ -7,6 +7,12 @@ Note:
 - The program adds a space after each shortcode, because otherwise they join and don't display like wanted.
 - The spaces become 5 characters long, meaning the overall space is 6 char-s wide (due to the space at the end of the last shortcode).
 
+## TODO
+- [x] Copy to clipboard.
+- [x] Single string input.
+- [ ] Multiple strings input.
+- [ ] File Input.
+
 ## Usage
 ```bat
 monke-text.exe <text> [-c]
