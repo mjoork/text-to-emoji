@@ -29,7 +29,7 @@ fn main() {
 
     /*
      * Allocate space for the new string with capacity 150. Hopefully this will
-     * prevent reallocation for simple phrases like "hello", "wut", etc. The
+     * prevent reallocation for simple phrases like "hello", "bruh", etc. The
      * magic number for capacity is found out using "hello", which converts to
      * 115 characters, so I decided to go 150 as a rounded the number.
      */
