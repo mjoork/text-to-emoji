@@ -53,7 +53,7 @@ or [download it as zip](https://github.com/poormark/monke-text/archive/master.zi
 The repository has `tools` folder in which helpful PowerShell scripts reside. Here's the explanation for them:
 
 |        Script        | Purpose                                                      |
-| :------------------: | ------------------------------------------------------------ |
+| -------------------- | ------------------------------------------------------------ |
 | `build-for-dist.ps1` | Builds a fresh release binary and copies it to `dist\win64` directory. Currently builds only for Windows x64. |
 
 ## Compatibility
