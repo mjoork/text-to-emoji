@@ -63,9 +63,7 @@ fn main() {
      * If user wished so, copy the contents of the
      * new string into their clipboard.
      */    
-    if args.clipboard {
-        set_clipboard(formats::Unicode, &new_text).expect("Couldn't copy");
-    }
+    if args.clipboard { set_clipboard(formats::Unicode, &new_text).expect("Couldn't copy"); }
 
     println!("\n{}\n", new_text);
 }
