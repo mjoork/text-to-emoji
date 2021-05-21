@@ -52,9 +52,9 @@ or [download it as zip](https://github.com/poormark/monke-text/archive/master.zi
 
 The repository has `tools` folder in which helpful PowerShell scripts reside. Here's the explanation for them:
 
-|   Script    | Purpose                                                      |
-| :---------: | ------------------------------------------------------------ |
-| `build.ps1` | Cleans the `dist` directory and runs `cargo clean`, then builds a new release (`cargo build –release`) and copies resulting binary into `.\dist\win64`. The script doesn't support any other platform than Windows x64 right now. |
+|        Script        | Purpose                                                      |
+| :------------------: | ------------------------------------------------------------ |
+| `build-for-dist.ps1` | Builds a fresh release binary and copies it to `dist\win64` directory. Currently builds only for Windows x64. |
 
 ## Compatibility
 
