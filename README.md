@@ -19,7 +19,7 @@ monke-text.exe <text> [-c]
 ```
 
 |     Command piece | Description                                                  |
-| ----------------: | :----------------------------------------------------------- |
+| ----------------- | ------------------------------------------------------------ |
 |          `<text>` | first (and only) positional argument that takes in text, which will be converted |
 | `-c, --clipboard` | use this switch to tell the program to copy the resulting message to clipboard |
 
