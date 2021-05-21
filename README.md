@@ -42,7 +42,7 @@ or [download it as zip](https://github.com/poormark/monke-text/archive/master.zi
 ### Installing latest release from [releases](https://github.com/poormark/monke-text/releases/)
 
 1. Download [latest release](https://github.com/poormark/monke-text/releases/latest/) binary for your respective OS.
-2. Add it to `PATH`
+2. Add it to `PATH` environment variable.
 
 ### Installing using installation script
 
