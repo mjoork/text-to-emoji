@@ -14,17 +14,19 @@ Note:
 - [ ] File Input.
 
 ## Usage
-```powershell
+
+```shell
 monke-text.exe <text> [-c]
 ```
 
-|     Command piece | Description                                                  |
-| ----------------- | ------------------------------------------------------------ |
+|     Command piece | Description                                                                      |
+| ----------------- | -------------------------------------------------------------------------------- |
 |          `<text>` | first (and only) positional argument that takes in text, which will be converted |
-| `-c, --clipboard` | use this switch to tell the program to copy the resulting message to clipboard |
+| `-c, --clipboard` | use this switch to tell the program to copy the resulting message to clipboard   |
 
 Example:
-```powershell
+
+```shell
 monke-text.exe "HAMBURGER" -c
 ```
 
@@ -52,10 +54,40 @@ or [download it as zip](https://github.com/poormark/monke-text/archive/master.zi
 
 The repository has `tools` folder in which helpful PowerShell scripts reside. Here's the explanation for them:
 
-|        Script        | Purpose                                                      |
-| -------------------- | ------------------------------------------------------------ |
-| `build-for-dist.ps1` | Builds a fresh release binary and copies it to `dist\win64` directory. Currently builds only for Windows x64. |
+<table>
+	<thead>
+		<tr>
+			<th>Script</th>
+			<th>Purpose</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td width="200px"><code>build-for-dist.ps1</code></td>
+			<td>Builds a fresh release binary and copies it to <code>dist\win64</code> directory. Currently builds only for Windows x64.</td>
+		</tr>
+	</tbody>
+</table>
 
-## Compatibility
+## Dependencies
 
-Currently works only on Windows. (The library for accessing clipboard is one specific to Windows.)
+You can refer to `Cargo.toml` file to see what this depends on, but here's a list of "Why"-s
+
+<table>
+	<thead>
+		<tr>
+			<th>Library</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td width="200px"><code>argh 0.1.4</code></td>
+			<td>I couldn't bother less about arguments parsing.</td>
+		</tr>
+		<tr>
+			<td width="200px"><code>clipboard-win 4.1</code></td>
+			<td>Easy, unfortunately <b>Windows-dependant</b>, clipboard API, hence why this software is only for Windows.</td>
+		</tr>
+	</tbody>
+</table>
