@@ -3,7 +3,7 @@ use std::fmt::Write;
 const ERROR_MESSAGE_TEXT: &str =
     "Woops, something went terribly wrong.\n\nPlease send this to the mongoloid developer:\n";
 
-/// Covnerts the `text` into text made of :regional_indicator_X: emojis.
+/// Covnerts the `text` into text made of :regional_indicator_<char>: emojis.
 pub fn convert_to_regional_indicators(text: String) -> String {
     /*
      * This program is case insensitive since regional indicators require
