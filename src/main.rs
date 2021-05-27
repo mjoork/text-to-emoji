@@ -15,6 +15,6 @@ fn main() {
         monke_text::copy_to_clipboard(&text);
     }
 
-    // Print to standard out for any purpose.
+    // Print to stdout for any purpose.
     println!("\n{}\n", text);
 }
