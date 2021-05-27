@@ -3,6 +3,7 @@ use monke_text::Arguments;
 fn main() {
     // Parse arguments.
     let args: Arguments = Arguments::parse();
+
     // Convert to regional indicator emojis.
     let text = monke_text::convert_to_regional_indicators(args.text);
 

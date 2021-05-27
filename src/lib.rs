@@ -48,7 +48,7 @@ pub fn convert_to_regional_indicators(text: String) -> String {
             '8' => new_text += ":eight: ",
             '9' => new_text += ":nine: ",
 
-            // Just copy any other other character.
+            // Just copy any other character.
             c => match new_text.write_char(c) {
                 Ok(_) => {}
                 Err(e) => {
