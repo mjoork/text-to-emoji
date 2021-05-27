@@ -1,6 +1,6 @@
 [package]
 name = "monke-text"
-version = "2.0.0"
+version = "2.1.6"
 authors = ["Mark Pokhil <vfhr.afr@gmail.com>"]
 edition = "2018"
 
