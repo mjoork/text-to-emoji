@@ -3,7 +3,7 @@
 A small utility to convert text to `:regional_indicator_<char>:` emoji short codes for Discord. Any non-alphabet characters will be just copied.
 
 Note:
-- It is case-insensitive; `mt.exe "UGA BUGA"` and `mt.exe "uga buga"` are the same to the program.
+- It is case-insensitive; `mot.exe "UGA BUGA"` and `mot.exe "uga buga"` are the same to the program.
 - The program adds a space after each short code, because otherwise they join and don't display like wanted.
 - The spaces become 5 characters long, meaning the overall space between words is 6 characters (due to the space at the end of the last shortcode in any word, still 5 if after comma).
 
@@ -19,7 +19,7 @@ Note:
 ## Usage
 
 ```shell
-mt.exe <text> [-c]
+mot.exe <text> [-c]
 ```
 
 |     Command piece | Description                                                                      |
@@ -30,7 +30,7 @@ mt.exe <text> [-c]
 Example:
 
 ```shell
-mt.exe "HAMBURGER" -c
+mot.exe "HAMBURGER" -c
 ```
 
 ## Installing
