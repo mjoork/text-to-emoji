@@ -3,20 +3,23 @@
 A small utility to convert text to `:regional_indicator_<char>:` emoji short codes for Discord. Any non-alphabet characters will be just copied.
 
 Note:
-- It is case-insensitive; `monke-text.exe "UGA BUGA"` and `monke-text.exe "uga buga"` are the same to the program.
+- It is case-insensitive; `mt.exe "UGA BUGA"` and `mt.exe "uga buga"` are the same to the program.
 - The program adds a space after each short code, because otherwise they join and don't display like wanted.
-- The spaces become 5 characters long, meaning the overall space is 6 char-s wide (due to the space at the end of the last shortcode).
+- The spaces become 5 characters long, meaning the overall space between words is 6 characters (due to the space at the end of the last shortcode in any word, still 5 if after comma).
 
 ## TODO
 - [x] Copy to clipboard.
-- [x] Single string input.
-- [ ] Multiple strings input.
+- [x] Single positional argument input.
+- [ ] Multiple positional arguments input.
+- [ ] `STDIN`
+- [ ] `STDOUT`
 - [ ] File Input.
+- [ ] File Output.
 
 ## Usage
 
 ```shell
-monke-text.exe <text> [-c]
+mt.exe <text> [-c]
 ```
 
 |     Command piece | Description                                                                      |
@@ -27,7 +30,7 @@ monke-text.exe <text> [-c]
 Example:
 
 ```shell
-monke-text.exe "HAMBURGER" -c
+mt.exe "HAMBURGER" -c
 ```
 
 ## Installing
@@ -36,14 +39,14 @@ monke-text.exe "HAMBURGER" -c
 
 Clone the repository via either
 
-- GitHub CLI – `gh repo clone poormark/monke-text`
-- GIT – `git clone git@github.com:poormark/monke-text.git`
+- GitHub CLI – `gh repo clone poormark/monketext`
+- GIT – `git clone git@github.com:poormark/monketext.git`
 
 or [download it as zip](https://github.com/poormark/monke-text/archive/master.zip). Then `cd` into the directory you just cloned and execute `cargo install --path .`.
 
-### Installing latest release from [releases](https://github.com/poormark/monke-text/releases/)
+### Installing latest release from [releases](https://github.com/poormark/monketext/releases/)
 
-1. Download [latest release](https://github.com/poormark/monke-text/releases/latest/) binary for your respective OS.
+1. Download [latest release](https://github.com/poormark/monketext/releases/latest/) binary for your respective OS.
 2. Add it to `PATH` environment variable.
 
 ### Installing using installation script
