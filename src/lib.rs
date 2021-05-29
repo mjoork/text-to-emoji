@@ -65,15 +65,12 @@ pub fn convert_to_regional_indicators(text: String) -> String {
     new_text
 }
 
-use clipboard_win::{formats, set_clipboard};
+use clipboard::{ClipboardContext, ClipboardProvider};
 /// Copies the `text` into clipboard in Unicode format.
-pub fn copy_to_clipboard(text: &String) {
-    if let Err(e) = set_clipboard(formats::Unicode, text) {
-        eprintln!(
-            "Couldn't copy the text in the clipboard for some reason:\n\n{}",
-            e
-        );
-    }
+//         "Couldn't copy the text in the clipboard for some reason:\n\n{}",
+pub fn copy_to_clipboard(text: String) {
+    let mut ctx: ClipboardContext = ClipboardProvider::new().expect("find");
+    ctx.set_contents(text).expect("set");
 }
 
 use argh::FromArgs;
