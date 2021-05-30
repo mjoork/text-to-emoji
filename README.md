@@ -89,8 +89,8 @@ You can refer to `Cargo.toml` file to see what this depends on, but here's a lis
 			<td>I couldn't bother less about arguments parsing.</td>
 		</tr>
 		<tr>
-			<td width="200px"><code>clipboard-win 4.1</code></td>
-			<td>Easy, unfortunately <b>Windows-dependant</b>, clipboard API, hence why this software is only for Windows.</td>
+			<td width="200px"><code>clipboard 0.5.5</code></td>
+			<td>Easy cross-platform library that depends on conditional compilation. On Windows uses the same crate I used before. <i>Doesn't want to work properly on linux... "the clipboard is cleared on the Linux/X11 platform when your application exists as per X11 design"... cool -.-</i></td>
 		</tr>
 	</tbody>
 </table>
