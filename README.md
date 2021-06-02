@@ -42,11 +42,11 @@ Clone the repository via either
 - GitHub CLI – `gh repo clone poormark/monketext`
 - GIT – `git clone git@github.com:poormark/monketext.git`
 
-or [download it as zip](https://github.com/poormark/monke-text/archive/master.zip). Then `cd` into the directory you just cloned and execute `cargo install --path .`.
+or [download it as zip](https://github.com/mjoork/monke-text/archive/master.zip). Then `cd` into the directory you just cloned and execute `cargo install --path .`.
 
-### Installing latest release from [releases](https://github.com/poormark/monketext/releases/)
+### Installing latest release from [releases](https://github.com/mjoork/monketext/releases/)
 
-1. Download [latest release](https://github.com/poormark/monketext/releases/latest/) binary for your respective OS.
+1. Download [latest release](https://github.com/mjoork/monketext/releases/latest/) binary for your respective OS.
 2. Add it to `PATH` environment variable.
 
 ### Installing using installation script
