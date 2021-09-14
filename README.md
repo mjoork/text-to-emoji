@@ -1,4 +1,4 @@
-# Text To Emoji
+# Text to emoji
 
 [![Linux and Windows build](https://github.com/mjoork/text-to-emoji/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/mjoork/text-to-emoji/actions/workflows/build-and-test.yml)
 
