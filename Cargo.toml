@@ -1,13 +1,17 @@
 [package]
-name = "monketext"
+name = "text-to-emoji"
 version = "2.2.7"
 authors = ["Mark Pokhil <vfhr.afr@gmail.com>"]
 edition = "2018"
 
+[profile.release]
+panic = 'abort'
+opt-level = 3
+
 [[bin]]
-name = "mot"
+name = "tte"
 path = "./src/main.rs"
 
 [dependencies]
 clipboard = "0.5.0"
-argh = "0.1.4"
+argh = "0.1.6"
