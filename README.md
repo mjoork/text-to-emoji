@@ -1,7 +1,5 @@
 # Text to emoji
 
-[![Linux and Windows build](https://github.com/mjoork/text-to-emoji/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/mjoork/text-to-emoji/actions/workflows/build-and-test.yml)
-
 TTE is a small utility program I wrote in Rust for some practice. It converts the text to tweemoji shortcodes of regional indicators in Discord.
 
 ## Usage
