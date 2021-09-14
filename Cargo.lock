@@ -158,7 +158,7 @@ dependencies = [
 
 [[package]]
 name = "text-to-emoji"
-version = "2.2.7"
+version = "1.0.0"
 dependencies = [
  "argh",
  "clipboard",
